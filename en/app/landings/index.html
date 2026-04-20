@@ -1,0 +1,193 @@
+<!DOCTYPE html><!--D_1n_6fZiEKPzfrNANxoB--><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/4ae8197176a32b87.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-e1941ff70d8a3911.js"/><script src="/_next/static/chunks/c449bf2e-98661807a4e1adb1.js" async=""></script><script src="/_next/static/chunks/743-8b4e7fc9389b5707.js" async=""></script><script src="/_next/static/chunks/main-app-413b5b1ab751b614.js" async=""></script><script src="/_next/static/chunks/619-85ef455724633dab.js" async=""></script><script src="/_next/static/chunks/441-ca559c725f4775c6.js" async=""></script><script src="/_next/static/chunks/14-edf19c692a6abb24.js" async=""></script><script src="/_next/static/chunks/98-4926172c245fdcab.js" async=""></script><script src="/_next/static/chunks/549-0924606504c07ccf.js" async=""></script><script src="/_next/static/chunks/app/%5Blocale%5D/app/landings/page-94ed5e28461a86fc.js" async=""></script><script src="/_next/static/chunks/app/%5Blocale%5D/layout-d4d0e49fc15de1a7.js" async=""></script><title>Unlims — Unlimited, Free AI</title><meta name="description" content="Unlimited, free access to AI. No subscriptions, no limits."/><script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body><div hidden=""><!--$--><!--/$--></div><div class="fixed inset-0 z-50 flex flex-col bg-secondary"><div class="absolute top-2 left-2 z-10 flex gap-1.5"><a class="h-9 px-2.5 flex items-center gap-1 rounded-full shadow-sm shadow-black/10 ring-1 ring-black/10 bg-[linear-gradient(180deg,#ffffff,#fafaff)] inset-shadow-[0_0_0_1px_white]" href="/en/app/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left size-4 text-neutral-600"><path d="m15 18-6-6 6-6"></path></svg></a><div class="hidden md:flex h-9 px-2.5 items-center gap-1 rounded-full shadow-sm shadow-black/10 ring-1 ring-black/10 bg-[linear-gradient(180deg,#ffffff,#fafaff)] inset-shadow-[0_0_0_1px_white]"><img alt="Landings" draggable="false" loading="lazy" width="84" height="24" decoding="async" data-nimg="1" class="select-none" style="color:transparent" src="/static/app_landings.svg"/></div></div><div class="absolute top-2 right-2 z-10 flex items-center gap-2"></div><div class="relative flex-1 z-0 overflow-hidden"><div class="flex h-full flex-col items-center justify-center gap-2"><p class="text-sm text-muted-foreground/50">Your landing page will be here</p></div></div><div class="pointer-events-none absolute bottom-5 left-0 right-0 z-40 flex flex-col items-center px-4 transition-all pb-2"><div class="pointer-events-auto w-full max-w-2xl"><div class="relative overflow-hidden rounded-2xl bg-[linear-gradient(180deg,#ffffff,#fafaff)] inset-shadow-[0_0_0_1px_white] shadow-sm shadow-black/10 ring-1 ring-black/10 backdrop-blur-sm transition-colors"><style>
+@property --beam-angle-_R_5pbsnpfivb_ {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: true;
+}
+
+@property --beam-opacity-_R_5pbsnpfivb_ {
+  syntax: "<number>";
+  initial-value: 0;
+  inherits: true;
+}
+
+[data-beam="_R_5pbsnpfivb_"] {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+[data-beam="_R_5pbsnpfivb_"][data-active] {
+  animation:
+    beam-spin-_R_5pbsnpfivb_ 2s linear infinite,
+    beam-fade-in-_R_5pbsnpfivb_ 0.6s ease forwards;
+}
+
+[data-beam="_R_5pbsnpfivb_"][data-fading] {
+  animation:
+    beam-spin-_R_5pbsnpfivb_ 2s linear infinite,
+    beam-fade-out-_R_5pbsnpfivb_ 0.5s ease forwards;
+}
+
+[data-beam="_R_5pbsnpfivb_"][data-active]::after,
+[data-beam="_R_5pbsnpfivb_"][data-fading]::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 15px;
+  padding: 1px;
+  clip-path: inset(0 round 16px);
+  background: conic-gradient(
+        from var(--beam-angle-_R_5pbsnpfivb_),
+        transparent 0%, transparent 54%,
+        rgba(255, 255, 255, 0.1) 57%,
+        rgba(255, 255, 255, 0.3) 60%,
+        rgba(255, 255, 255, 0.6) 63%,
+        rgba(255, 255, 255, 0.75) 66%,
+        rgba(255, 255, 255, 0.6) 69%,
+        rgba(255, 255, 255, 0.3) 72%,
+        rgba(255, 255, 255, 0.1) 75%,
+        transparent 78%, transparent 100%
+      ),radial-gradient(ellipse 70px 40px at 33% -7.4%, rgb(100, 80, 220), transparent),
+    radial-gradient(ellipse 60px 35px at 12% -5%, rgb(60, 120, 255), transparent),
+    radial-gradient(ellipse 40px 70px at 2.1% 68.3%, rgb(80, 100, 200), transparent),
+    radial-gradient(ellipse 20px 35px at 2.1% 68.3%, rgb(50, 140, 220), transparent),
+    radial-gradient(ellipse 180px 32px at 74.4% 100%, rgb(120, 80, 255), transparent),
+    radial-gradient(ellipse 85px 26px at 55% 100%, rgb(70, 130, 255), transparent),
+    radial-gradient(ellipse 74px 32px at 93.9% 0%, rgb(140, 100, 240), transparent),
+    radial-gradient(ellipse 26px 42px at 100% 27.1%, rgb(90, 110, 230), transparent),
+    radial-gradient(ellipse 52px 48px at 100% 27.1%, rgb(130, 70, 255), transparent);
+  -webkit-mask:
+    conic-gradient(
+      from var(--beam-angle-_R_5pbsnpfivb_),
+      transparent 0%, transparent 30%,
+      rgba(255, 255, 255, 0.1) 36%, rgba(255, 255, 255, 0.35) 44%,
+      white 52%, white 80%,
+      rgba(255, 255, 255, 0.35) 86%, rgba(255, 255, 255, 0.1) 92%,
+      transparent 95%, transparent 100%
+    ),
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: source-in, xor;
+  mask:
+    conic-gradient(
+      from var(--beam-angle-_R_5pbsnpfivb_),
+      transparent 0%, transparent 30%,
+      rgba(255, 255, 255, 0.1) 36%, rgba(255, 255, 255, 0.35) 44%,
+      white 52%, white 80%,
+      rgba(255, 255, 255, 0.35) 86%, rgba(255, 255, 255, 0.1) 92%,
+      transparent 95%, transparent 100%
+    ),
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: intersect, exclude;
+  pointer-events: none;
+  z-index: 2;
+  opacity: calc(var(--beam-opacity-_R_5pbsnpfivb_) * 0.48 * var(--beam-strength, 1));
+  animation: beam-hue-shift-_R_5pbsnpfivb_ 12s ease-in-out infinite;
+}
+
+[data-beam="_R_5pbsnpfivb_"][data-active]::before,
+[data-beam="_R_5pbsnpfivb_"][data-fading]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  background: radial-gradient(ellipse 63px 36px at 33% -7.4%, rgba(100, 80, 220, 0.45), transparent),
+    radial-gradient(ellipse 54px 32px at 12% -5%, rgba(60, 120, 255, 0.45), transparent),
+    radial-gradient(ellipse 36px 63px at 2.1% 68.3%, rgba(80, 100, 200, 0.45), transparent),
+    radial-gradient(ellipse 18px 32px at 2.1% 68.3%, rgba(50, 140, 220, 0.45), transparent),
+    radial-gradient(ellipse 162px 29px at 74.4% 100%, rgba(120, 80, 255, 0.45), transparent),
+    radial-gradient(ellipse 77px 23px at 55% 100%, rgba(70, 130, 255, 0.45), transparent),
+    radial-gradient(ellipse 67px 29px at 93.9% 0%, rgba(140, 100, 240, 0.45), transparent),
+    radial-gradient(ellipse 23px 38px at 100% 27.1%, rgba(90, 110, 230, 0.45), transparent),
+    radial-gradient(ellipse 47px 43px at 100% 27.1%, rgba(130, 70, 255, 0.45), transparent);
+  box-shadow: inset 0 0 9px 1px rgba(255, 255, 255, 0.27);
+  -webkit-mask-image:
+    conic-gradient(
+      from var(--beam-angle-_R_5pbsnpfivb_),
+      transparent 0%, transparent 30%,
+      rgba(255, 255, 255, 0.1) 36%, rgba(255, 255, 255, 0.35) 44%,
+      white 52%, white 80%,
+      rgba(255, 255, 255, 0.35) 86%, rgba(255, 255, 255, 0.1) 92%,
+      transparent 95%, transparent 100%
+    ),
+    linear-gradient(white, transparent 28px, transparent calc(100% - 28px), white),
+    linear-gradient(to right, white, transparent 28px, transparent calc(100% - 28px), white);
+  -webkit-mask-composite: source-in, source-over;
+  mask-image:
+    conic-gradient(
+      from var(--beam-angle-_R_5pbsnpfivb_),
+      transparent 0%, transparent 30%,
+      rgba(255, 255, 255, 0.1) 36%, rgba(255, 255, 255, 0.35) 44%,
+      white 52%, white 80%,
+      rgba(255, 255, 255, 0.35) 86%, rgba(255, 255, 255, 0.1) 92%,
+      transparent 95%, transparent 100%
+    ),
+    linear-gradient(white, transparent 28px, transparent calc(100% - 28px), white),
+    linear-gradient(to right, white, transparent 28px, transparent calc(100% - 28px), white);
+  mask-composite: intersect, add;
+  pointer-events: none;
+  z-index: 1;
+  opacity: calc(var(--beam-opacity-_R_5pbsnpfivb_) * 0.70 * var(--beam-strength, 1));
+  clip-path: inset(0 round 16px);
+  animation: beam-hue-shift-_R_5pbsnpfivb_ 12s ease-in-out infinite;
+}
+
+[data-beam="_R_5pbsnpfivb_"] [data-beam-bloom] {
+  display: none;
+  position: absolute;
+  inset: 0;
+  border-radius: 15px;
+  clip-path: inset(0 round 16px);
+  background: conic-gradient(
+        from var(--beam-angle-_R_5pbsnpfivb_),
+        transparent 0%, transparent 58%,
+        rgba(255, 255, 255, 0.03) 62%,
+        rgba(255, 255, 255, 0.08) 65%,
+        rgba(255, 255, 255, 0.2) 67%,
+        rgba(255, 255, 255, 0.45) 69%,
+        rgba(255, 255, 255, 0.85) 70%,
+        rgba(255, 255, 255, 0.85) 70.5%,
+        rgba(255, 255, 255, 0.45) 71.5%,
+        rgba(255, 255, 255, 0.2) 73%,
+        rgba(255, 255, 255, 0.08) 75%,
+        rgba(255, 255, 255, 0.03) 78%,
+        transparent 82%
+      );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  padding: 1px;
+  filter: blur(8px) brightness(1.30) saturate(1.20);
+  pointer-events: none;
+  z-index: 3;
+  opacity: 0;
+}
+
+[data-beam="_R_5pbsnpfivb_"][data-active] [data-beam-bloom],
+[data-beam="_R_5pbsnpfivb_"][data-fading] [data-beam-bloom] {
+  display: block;
+  opacity: calc(var(--beam-opacity-_R_5pbsnpfivb_) * 0.80 * var(--beam-strength, 1));
+}
+
+@keyframes beam-spin-_R_5pbsnpfivb_ {
+  to { --beam-angle-_R_5pbsnpfivb_: 360deg; }
+}
+
+@keyframes beam-fade-in-_R_5pbsnpfivb_ {
+  to { --beam-opacity-_R_5pbsnpfivb_: 1; }
+}
+
+@keyframes beam-fade-out-_R_5pbsnpfivb_ {
+  from { --beam-opacity-_R_5pbsnpfivb_: 1; }
+  to { --beam-opacity-_R_5pbsnpfivb_: 0; }
+}
+
+@keyframes beam-hue-shift-_R_5pbsnpfivb_ {
+  0% { filter: hue-rotate(-30deg) brightness(1.30) saturate(1.20); }
+  50% { filter: hue-rotate(30deg) brightness(1.30) saturate(1.20); }
+  100% { filter: hue-rotate(-30deg) brightness(1.30) saturate(1.20); }
+}
+</style><div data-beam="_R_5pbsnpfivb_" class="w-full h-full" style="--beam-strength:0.5"><textarea data-slot="textarea" class="flex field-sizing-content w-full shadow-black/10 ring-black/10 py-2 transition-[color,box-shadow] outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 md:text-sm dark:bg-input/30 dark:aria-invalid:ring-destructive/40 relative z-10 min-h-20 md:min-h-14 max-h-45 resize-none rounded-none shadow-none ring-0 bg-transparent px-4 pb-0 pt-3.5 text-sm" placeholder="Describe your landing page — product, audience, tone..."></textarea><div class="relative z-10 flex items-center gap-2 px-3 pb-3 pt-2"><button type="button" role="combobox" aria-controls="radix-_R_5rdpbsnpfivb_" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" data-slot="select-trigger" data-size="default" class="flex items-center justify-between gap-2 bg-[linear-gradient(180deg,#ffffff,#fafaff)] inset-shadow-[0_0_0_1px_white] h-7 w-34 px-3 py-2 rounded-lg text-sm font-medium whitespace-nowrap shadow-sm shadow-black/10 ring-1 ring-black/10 transition-colors hover:bg-accent cursor-pointer outline-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-placeholder:text-muted-foreground data-[size=default]:h-9 data-[size=sm]:h-8 *:data-[slot=select-value]:line-clamp-1 *:data-[slot=select-value]:flex *:data-[slot=select-value]:items-center *:data-[slot=select-value]:gap-2 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*=&#x27;size-&#x27;])]:size-4 [&amp;_svg:not([class*=&#x27;text-&#x27;])]:text-muted-foreground"><span data-slot="select-value" style="pointer-events:none"></span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down size-4 opacity-50" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button><select aria-hidden="true" tabindex="-1" style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal"></select><button type="button" role="combobox" aria-controls="radix-_R_9rdpbsnpfivb_" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" data-slot="select-trigger" data-size="default" class="flex items-center justify-between gap-2 bg-[linear-gradient(180deg,#ffffff,#fafaff)] inset-shadow-[0_0_0_1px_white] h-7 px-3 py-2 rounded-lg text-sm font-medium whitespace-nowrap shadow-sm shadow-black/10 ring-1 ring-black/10 transition-colors hover:bg-accent cursor-pointer outline-none disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-placeholder:text-muted-foreground data-[size=default]:h-9 data-[size=sm]:h-8 *:data-[slot=select-value]:line-clamp-1 *:data-[slot=select-value]:flex *:data-[slot=select-value]:items-center *:data-[slot=select-value]:gap-2 dark:bg-input/30 dark:hover:bg-input/50 dark:aria-invalid:ring-destructive/40 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*=&#x27;size-&#x27;])]:size-4 [&amp;_svg:not([class*=&#x27;text-&#x27;])]:text-muted-foreground w-fit"><div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 18 18" class="shrink-0 size-4 text-neutral-600"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 2.25C7 1.83579 6.66421 1.5 6.25 1.5C5.83579 1.5 5.5 1.83579 5.5 2.25V3.5H2.25C1.83579 3.5 1.5 3.83579 1.5 4.25C1.5 4.66421 1.83579 5 2.25 5H3.56347C3.74676 6.30331 4.29818 7.5017 5.1212 8.47336C4.9941 8.556 4.86624 8.63204 4.73878 8.70209C4.08975 9.05877 3.44616 9.26071 2.96202 9.37285C2.72121 9.42862 2.52339 9.46137 2.38887 9.47993C2.29441 9.49297 2.24432 9.49805 2.19864 9.50175C1.78597 9.53006 1.47403 9.88723 1.50167 10.3001C1.52935 10.7134 1.88682 11.026 2.30011 10.9983L2.30182 10.9982C2.38044 10.9927 2.45737 10.9847 2.59394 10.9659C2.76723 10.9419 3.01003 10.9014 3.30048 10.8342C3.87883 10.7002 4.66025 10.4568 5.46122 10.0166C5.72029 9.87427 5.98086 9.71138 6.23679 9.52556C6.77217 9.92764 7.37103 10.2546 8.01963 10.489C8.40917 10.6299 8.83912 10.4282 8.97994 10.0387C9.12076 9.64916 8.91913 9.21922 8.52959 9.0784C8.11439 8.9283 7.72529 8.72967 7.36819 8.48996C8.10597 7.63625 8.69412 6.5006 8.92123 5H10.25C10.6642 5 11 4.66421 11 4.25C11 3.83579 10.6642 3.5 10.25 3.5H7V2.25ZM7.40005 5H6.25H5.08254C5.25119 5.9298 5.66094 6.78417 6.25227 7.48788C6.77673 6.8725 7.20116 6.06528 7.40005 5Z" fill="currentColor" fill-opacity="0.4" data-color="color-2"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12.25 7C11.9374 7 11.6575 7.19393 11.5477 7.48666L8.54774 15.4867C8.4023 15.8745 8.59881 16.3068 8.98665 16.4522C9.37449 16.5977 9.8068 16.4012 9.95224 16.0133L10.7072 14L14.2927 14L15.0477 16.0133C15.1932 16.4012 15.6255 16.5977 16.0133 16.4522C16.4012 16.3068 16.5977 15.8745 16.4522 15.4867L13.4522 7.48666C13.3425 7.19393 13.0626 7 12.75 7H12.25ZM13.7302 12.5L12.5 9.21933L11.2697 12.5L13.7302 12.5Z" fill="currentColor"></path></svg><span class="text-foreground hidden sm:block">Language</span></div></button><select aria-hidden="true" tabindex="-1" style="position:absolute;border:0;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;word-wrap:normal"></select><button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_drdpbsnpfivb_" data-state="closed" data-slot="popover-trigger" class="flex h-9 px-3 py-2 cursor-pointer items-center gap-1.5 rounded-lg border-0 bg-[linear-gradient(180deg,#ffffff,#fafaff)] inset-shadow-[0_0_0_1px_white] text-sm font-medium shadow-sm shadow-black/10 ring-1 ring-black/10 transition-colors hover:bg-accent disabled:cursor-not-allowed disabled:opacity-50 data-[state=open]:bg-accent"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" x="0px" y="0px" viewBox="0 0 18 18" class="size-4 shrink-0 text-neutral-600"><path d="M16.318 1.931C15.528 1.142 14.152 1.141 13.361 1.931L5.948 9.344C6.621 9.594 7.242 9.975 7.765 10.5C8.29 11.027 8.662 11.645 8.905 12.302L16.319 4.888C17.134 4.073 17.134 2.746 16.319 1.93L16.318 1.931Z" fill="currentColor" fill-opacity="0.4" data-color="color-2"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M3.98984 9.29252C5.37713 7.89005 7.60017 7.9142 8.97054 9.29091C10.3418 10.6685 10.343 12.8997 8.97295 14.2777C7.95219 15.3213 6.79225 15.8394 5.51026 15.9674C4.25618 16.0927 2.92172 15.8411 1.53421 15.4243C1.24453 15.3373 1.03547 15.0848 1.00405 14.7839C0.972619 14.4831 1.12497 14.1928 1.39041 14.0478C1.9391 13.7481 2.21442 13.462 2.37386 13.2082C2.53795 12.9471 2.61815 12.661 2.68975 12.2759C2.70535 12.192 2.72019 12.1036 2.73569 12.0114C2.86109 11.265 3.02947 10.2632 3.98984 9.29252Z" fill="currentColor"></path></svg><span class="text-foreground hidden sm:block">Style</span></button><button disabled="" class="ml-auto flex size-8 items-center justify-center rounded-full bg-primary text-primary-foreground transition-opacity hover:opacity-75 disabled:opacity-25 cursor-pointer disabled:cursor-not-allowed" aria-label="Generate"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 18 18" class="shrink-0 size-4"><path d="M7.10864 10.8914L10.168 16.1366C10.738 17.1166 12.1609 16.9199 12.5045 15.8905L16.6611 2.95948C16.8168 2.47494 16.6644 1.98204 16.3454 1.65457L7.10864 10.8914Z" fill="currentColor"></path><path d="M16.3454 1.65457C16.0266 1.32724 15.5414 1.16522 15.0309 1.34208L2.1175 5.493C1.05388 5.83444 0.904026 7.27119 1.86313 7.83186L7.10863 10.8914L16.3454 1.65457Z" fill="currentColor" fill-opacity="0.4" data-color="color-2"></path></svg></button></div><div data-beam-bloom="true"></div></div></div></div></div><section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text" aria-atomic="false"></section></div><!--$--><!--/$--><script src="/_next/static/chunks/webpack-e1941ff70d8a3911.js" id="_R_" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[9888,[],\"\"]\n3:I[1302,[],\"\"]\n6:I[3741,[],\"OutletBoundary\"]\n8:I[2568,[],\"AsyncMetadataOutlet\"]\na:I[3741,[],\"ViewportBoundary\"]\nc:I[3741,[],\"MetadataBoundary\"]\nd:\"$Sreact.suspense\"\nf:I[5340,[],\"\"]\n:HL[\"/_next/static/css/4ae8197176a32b87.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"D-1n_6fZiEKPzfrNANxoB\",\"p\":\"\",\"c\":[\"\",\"en\",\"app\",\"landings\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[[\"locale\",\"en\",\"d\"],{\"children\":[\"app\",{\"children\":[\"landings\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true]}],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"locale\",\"en\",\"d\"],[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/4ae8197176a32b87.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L4\"]}],{\"children\":[\"app\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"landings\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[\"$L5\",null,[\"$\",\"$L6\",null,{\"children\":[\"$L7\",[\"$\",\"$L8\",null,{\"promise\":\"$@9\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$La\",null,{\"children\":\"$Lb\"}],null],[\"$\",\"$Lc\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$d\",null,{\"fallback\":null,\"children\":\"$Le\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$f\",[]],\"s\":false,\"S\":true}\n"])</script><script>self.__next_f.push([1,"10:I[645,[\"619\",\"static/chunks/619-85ef455724633dab.js\",\"441\",\"static/chunks/441-ca559c725f4775c6.js\",\"14\",\"static/chunks/14-edf19c692a6abb24.js\",\"98\",\"static/chunks/98-4926172c245fdcab.js\",\"549\",\"static/chunks/549-0924606504c07ccf.js\",\"766\",\"static/chunks/app/%5Blocale%5D/app/landings/page-94ed5e28461a86fc.js\"],\"LandingsView\"]\n5:[\"$\",\"$L10\",null,{}]\n"])</script><script>self.__next_f.push([1,"4:[\"$\",\"html\",null,{\"lang\":\"en\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"body\",null,{\"children\":\"$L11\"}]}]\n"])</script><script>self.__next_f.push([1,"12:I[2704,[\"450\",\"static/chunks/app/%5Blocale%5D/layout-d4d0e49fc15de1a7.js\"],\"default\"]\n"])</script><script>self.__next_f.push([1,"11:[\"$\",\"$L12\",null,{\"locale\":\"en\",\"now\":\"$D2026-04-20T15:10:02.316Z\",\"timeZone\":\"Asia/Bangkok\",\"messages\":{\"Shared\":{\"LocaleSwitcher\":{\"label\":\"Language\",\"en\":\"English\",\"ru\":\"Russian\"},\"errors\":{\"noWebGPU\":\"WebGPU is not supported in your browser. Try Chrome 113+.\",\"modelError\":\"Failed to load {label}\",\"saveError\":\"Failed to save HTML\",\"processError\":\"Failed to process image\",\"errorStep\":\"Error at step: {step}\"},\"status\":{\"loading\":\"Loading model...\",\"generating\":\"Generating...\",\"modelReady\":\"{label} ready\",\"modelDownloaded\":\"Downloaded\",\"modelNotDownloaded\":\"Not downloaded\",\"downloadingModel\":\"Downloading model\",\"downloadSuccess\":\"Successfully downloaded!\"},\"actions\":{\"generate\":\"Generate\",\"send\":\"Send\",\"preview\":\"Preview\",\"download\":\"Download\",\"attach\":\"Attach\",\"copy\":\"Copy\",\"copied\":\"Copied\",\"rewind\":\"Rewind\",\"expand\":\"Expand\",\"collapse\":\"Collapse\",\"attachment\":\"Attachment\"},\"common\":{\"soon\":\"Soon\",\"language\":\"Language\",\"style\":\"Style\"}},\"Landing\":{\"Meta\":{\"title\":\"Unlims — Unlimited, Free AI\",\"description\":\"Unlimited, free access to AI. No subscriptions, no limits.\"},\"Nav\":{\"brand\":\"Unlims\",\"features\":\"Features\",\"faq\":\"FAQ\"},\"Hero\":{\"stickerLine1\":\"Unlimited\",\"stickerLine2\":\"Free AI\",\"subtitle\":\"Access powerful models with no subscriptions, no limits, and no clutter.\",\"ctaPrimary\":\"Try it\",\"ctaSecondary\":\"Learn more\"},\"Features\":{\"title\":\"Simple. Fast. Without limits.\",\"items\":{\"unlimited\":{\"title\":\"No limits\",\"description\":\"Use as much as you need. No quotas, no token counters.\"},\"free\":{\"title\":\"Free forever\",\"description\":\"No paid subscriptions, no hidden fees — ever.\"},\"fast\":{\"title\":\"Lightning fast\",\"description\":\"Optimized models and infrastructure for instant responses.\"}}},\"Footer\":{\"rights\":\"All rights reserved.\"}},\"Main\":{\"appsCommon\":\"For everyone\",\"appsBusiness\":\"For business\",\"appsNames\":{\"chat\":\"Chat\",\"docs\":\"Docs\",\"sheets\":\"Sheets\",\"notes\":\"Notes\",\"landings\":\"Landings\"},\"appsDescriptions\":{\"chat\":\"Chat with AI assistant\",\"docs\":\"AI-powered document editor\",\"sheets\":\"AI-powered spreadsheet editor\",\"notes\":\"AI-powered note taking app\",\"landings\":\"Landing page generator\"}},\"Apps\":{\"Chat\":{\"title\":\"Chat\",\"placeholder\":\"Ask anything...\",\"emptyHint\":\"How can I help you today?\",\"tokens\":\"{count, plural, one {# token} other {# tokens}}\",\"hallucinationWarning\":\"High risk of hallucination: context exceeded 4096 tokens.\",\"switchVision\":\"Switched to Phi 3.5 Vision — only this model supports attachments\",\"imageDescribe\":\"Describe what is in the image.\"},\"Landings\":{\"title\":\"Landing Generator\",\"placeholder\":\"Describe your landing page — product, audience, tone...\",\"structure\":\"Structure\",\"designSystem\":\"Design system\",\"fonts\":\"Fonts\",\"code\":\"Code\",\"emptyHint\":\"Your landing page will be here\",\"stepStructure\":\"Planning page structure...\",\"stepStyle\":\"Choosing visual style...\",\"stepBlock\":\"Building {kind} section...\",\"stepBlockProgress\":\"{current}/{total}\",\"skipBlock\":\"Skipped {kind} block\",\"customize\":{\"auto\":\"Auto\",\"clear\":\"Clear\",\"chooseStyle\":\"Choose style\",\"searchStyles\":\"Search styles...\",\"skinsNotFound\":\"No skins found\",\"accent\":\"Accent\",\"accentColor\":\"Accent color\",\"headings\":\"Headings\",\"text\":\"Text\",\"chooseFont\":\"Choose font\",\"searchFont\":\"Search font...\",\"previewText\":\"Preview text...\",\"fontsNotFound\":\"No fonts found\",\"quickBrownFox\":\"The quick brown fox jumps\",\"skins\":{\"rounded\":\"Rounded\",\"gigantism\":\"Gigantism\",\"neobrutalism\":\"Neobrutalism\",\"sharp\":\"Sharp\"},\"categories\":{\"all\":\"All\",\"sans\":\"Sans-serif\",\"serif\":\"Serif\",\"display\":\"Display\",\"mono\":\"Monospace\"}}}}},\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]\n"])</script><script>self.__next_f.push([1,"b:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n7:null\n"])</script><script>self.__next_f.push([1,"9:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Unlims — Unlimited, Free AI\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Unlimited, free access to AI. No subscriptions, no limits.\"}]],\"error\":null,\"digest\":\"$undefined\"}\n"])</script><script>self.__next_f.push([1,"e:\"$9:metadata\"\n"])</script></body></html>
