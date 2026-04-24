@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[locale]","\u002F[locale]\u002Fchat","\u002F[locale]\u002Flandings","\u002F[locale]\u002Fnotes"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
